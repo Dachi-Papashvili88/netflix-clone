@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './index.css'
 
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1>Netflif Website</h1>
-    </>
+    <div>
+    <Navbar />
+    </div>
   )
 }
 
