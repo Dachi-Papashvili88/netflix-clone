@@ -1,10 +1,18 @@
-import Main from '../components/Main'
-const Home = () => {
-    return (
-        <>
-            <Main />
-        </>
-    )
-}
+import Main from "../components/Main";
+import Row from "../components/Row";
+import requests from "../Requests";
 
-export default Home 
+const Home = () => {
+  return (
+    <>
+      <Main />
+      <Row title="UpComing" fetchURL={requests.requestUpcoming} />
+      <Row title="popular" fetchURL={requests.requestPopular} />
+      <Row title="Trending" fetchURL={requests.requestTrending} />
+      <Row title="Top Rated" fetchURL={requests.requestTopRated} />
+      <Row title="Horror" fetchURL={requests.requestHorror} />
+    </>
+  );
+};
+
+export default Home;
