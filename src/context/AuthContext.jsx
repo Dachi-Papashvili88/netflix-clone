@@ -5,8 +5,7 @@ import {
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
-  updateCurrentUser,
-} from "firebase/auth";
+ } from "firebase/auth";
 
 const AuthContext = createContext();
 
@@ -14,7 +13,7 @@ export function AuthContextProvider({ children }) {
    const [user, setUser] = useState({})
 
    function signUp(email, password){
-    return createUserWithEmailAndPassword(auth, email, password)
+      createUserWithEmailAndPassword(auth, email, password)
    }
 
    function logIn(email, password){
