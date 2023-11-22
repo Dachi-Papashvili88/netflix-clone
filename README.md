@@ -1,5 +1,5 @@
 ## Overview
-### This project is a Netflix clone built with React, Tailwind CSS, and Firebase. It allows users to sign up or sign in using their Google account, and authenticated users can store and manage their favorite movies in their account.
+#### This project is a Netflix clone built with React, Tailwind CSS, and Firebase. It allows users to sign up or sign in using their Google account, and authenticated users can store and manage their favorite movies in their account.
 
 
 ## Features
@@ -16,7 +16,7 @@
 ![Dekstop](public/netflix_dekstop.png) <br>
 
 <img src="public/netflix_mobile.png" alt="Example Image" width="150" height="500">
-<br><br>
+<br>
 
 ## Links
 [Live](https://netflic-clone-dp.netlify.app/)<br>
